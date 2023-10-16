@@ -8,8 +8,7 @@ engine = pyttsx3.init()
 # convert this text to speech
 text = input("please write text here to speech : ")
 engine.say(text)
-engine.say(text)
-engine.say(text)
+
 
 # play the speech
 engine.runAndWait()
